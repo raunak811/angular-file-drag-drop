@@ -28,6 +28,8 @@ Import in `app.module.ts` or respective module if you are using lazy loading.
 
 **If you want to use our interface**
 
+Use `ng-file-drag-drop` selector and bind with `uploadedFiles` event.
+
     <ng-file-drag-drop (uploadedFiles)="getUploadedFiles($event)" [fileConfig]="dragDropConfig"> </ng-file-drag-drop>
 `fileConfig` is used to configure some properties to show/hide uploaded files as shown below:
 
