@@ -4,5 +4,27 @@
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
+  },
+  "keywords": [
+    "Angular",
+    "drag-drop",
+    "file drag drop",
+    "angular file drag and drop",
+    "angular multiple file upload",
+    "drag drop angular",
+    "drag drop file angular",
+    "ng drag drop file",
+    "angular drag drop file",
+    "ng file drag drop"
+  ],
+  "author": "Raunak Kumar <raunak@live.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raunak811/angular-file-drag-drop.git"
+  },
+  "homepage": "https://raunak811.github.io/angular-file-drag-drop/",
+  "bugs": {
+    "url": "https://github.com/raunak811/angular-file-drag-drop/issues"
   }
 }
