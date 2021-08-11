@@ -11,7 +11,7 @@ export class NgFileDragDropComponent implements OnInit {
   files:any = [];
   fileConfiguration:any = {}
   @Output() uploadedFiles = new EventEmitter<any>();
-  @Input() fileConfig:any = {showProgress:true, showList:true}
+  @Input() fileConfig:any = {showProgress:true, showList:true , multiple:false}
 
   constructor() { }
 
